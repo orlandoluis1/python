@@ -1,0 +1,11 @@
+p1= input('digite a nota p1: ')
+p2= input('digite a nota p2: ')
+t= input('digite a nota T: ')
+l1= input('digite a nota l1: ')
+l2= input('digite a nota l2: ')
+l3= input('digite a nota l3: ')
+l4= input('digite a nota l4: ')
+l5= input('digite a nota l5: ')
+ml= ( l1 + l2 + l3 + l4 + l5 )/float(5)
+m= (0.3 * p1) + (0.4 * p2) + (0.2 * ml) + (0.1 * t)
+print m
